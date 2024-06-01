@@ -5,7 +5,7 @@
 
 ## Getting Started
 1. **Install Dependencies**: `npm install`
-2. **Setup MongoDB**: Add your ouwn database link in DBcon.js (const **connectionString**).
+2. **Setup MongoDB**: Add your own database link in DBcon.js (const **connectionString**).
 3. **Run the Server**: `node app.js`
 
 ## Technologies Used
