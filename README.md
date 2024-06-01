@@ -44,5 +44,3 @@
 - **Session Management**: Implement sessions or JWT.
 - **Password Reset**: Add password reset functionality.
 - **User Profiles**: Expand user data with additional profile information.
-
-"""
