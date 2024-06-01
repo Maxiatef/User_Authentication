@@ -1,10 +1,12 @@
 # User_Authentication
-This project is a user authentication system built with Node.js, using Mongoose for database access and Bcrypt for hashing and securing passwords. It supports user registration and login, ensuring secure password storage and authentication.
+- This project is a backend server for user authentication built with Node.js, using Mongoose for database access and Bcrypt for hashing and securing passwords. It supports user registration and login, ensuring secure password storage and authentication.
+- This project provides a secure user authentication system using Node.js, Mongoose, and Bcrypt, offering a robust foundation for more complex applications.
 
 
-## How to use
-- open the directory and type : **npm i**
-- in DBcon.js write your own database link (cont **connectionString**)
+## Getting Started
+1. **Install Dependencies**: `npm install`
+2. **Setup MongoDB**: Add your ouwn database link in DBcon.js (const **connectionString**).
+3. **Run the Server**: `node app.js`
 
 ## Technologies Used
 - **Node.js**: JavaScript runtime environment.
@@ -37,17 +39,10 @@ This project is a user authentication system built with Node.js, using Mongoose 
    - Compare submitted password with stored hashed password using Bcrypt.
    - Grant or deny access based on match.
 
-## Getting Started
-1. **Install Dependencies**: `npm install`
-2. **Setup MongoDB**: Ensure MongoDB is running.
-3. **Run the Server**: `node app.js`
 
 ## Future Enhancements
 - **Session Management**: Implement sessions or JWT.
 - **Password Reset**: Add password reset functionality.
 - **User Profiles**: Expand user data with additional profile information.
 
-## Conclusion
-This project provides a secure user authentication system using Node.js, Mongoose, and Bcrypt, offering a robust foundation for more complex applications.
 """
-
