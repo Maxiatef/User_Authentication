@@ -2,6 +2,10 @@
 This project is a user authentication system built with Node.js, using Mongoose for database access and Bcrypt for hashing and securing passwords. It supports user registration and login, ensuring secure password storage and authentication.
 
 
+## How to use
+- open the directory and type : **npm i**
+- in DBcon.js write your own database link (cont **connectionString**)
+
 ## Technologies Used
 - **Node.js**: JavaScript runtime environment.
 - **Express**: Web application framework.
@@ -47,6 +51,3 @@ This project is a user authentication system built with Node.js, using Mongoose 
 This project provides a secure user authentication system using Node.js, Mongoose, and Bcrypt, offering a robust foundation for more complex applications.
 """
 
-# Save to README.md
-with open("/mnt/data/README.md", "w") as file:
-    file.write(readme_content)
